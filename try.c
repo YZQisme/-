@@ -231,7 +231,7 @@ void interface_change(void) {}
 void interface_del(void) {}
 
 int main() {
-	//程序在运行前People.txt必须存在
+	//程序在运行前People.txt必须存在，否则会报错
 	struct LIST node_first = { {""""""""""},NULL };
 	int load_error = 0;
 	char home_selection[3];
